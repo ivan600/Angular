@@ -41,6 +41,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-family: 'Helvetica';
     color: #ccc;
 }
@@ -49,7 +50,7 @@ h2{
     display: flex;
 }
 
-.item img{
+.item svg{
     margin-left: 10px;
     width: 20px;
     height: 20px;

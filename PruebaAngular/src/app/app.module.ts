@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { PlansComponent } from './plans/plans.component';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PlansComponent } from './plans/plans.component';
     AppComponent,
     NavbarComponent,
     PresentationComponent,
-    PlansComponent
+    PlansComponent,
+    IntroductionComponent
   ],
   imports: [
     BrowserModule,
