@@ -13,15 +13,21 @@
     border: 2px 1px solid black;
 }
 
+#filter{
+    width: 100% ;
+    filter: blur(10px);
+}
+
 #cont-pres{
-    position: relative;
-    top: 35%;
+    position: absolute;
     padding: 5px 15px;
+    
     text-align: center;
     background-color: blue;
     display: flex;
     justify-content: center;
     border-radius: 15px;
+    box-shadow: 0px 0px 40px blue;
 }
 
 
