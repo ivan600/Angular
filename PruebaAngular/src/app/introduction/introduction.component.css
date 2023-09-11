@@ -14,11 +14,22 @@
     background: linear-gradient(0deg, rgba(255,255,255,1) 12%, rgba(11,11,235,1) 88%, rgba(0,15,255,1) 100%);
 }
 
+#background{
+    margin-bottom: 20px;
+}
+
 h1{
     font-size: 3em;
     color: white;
 }
 
 p{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-weight: 500;
     font-size: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px blue;
 }

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  goToPlans(){
+    window.scroll({
+      top: 1050,
+      behavior: "smooth"
+    });
+  }
 }
