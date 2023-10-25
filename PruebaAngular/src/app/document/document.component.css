@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav{
+    width: 70%;
+    height: 50px;
+    background-color: #151328;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 16px;
+
+}
+
+#txt-size-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#txt-size-container input{
+    width: 40px;
+    text-align: center;
+}
+
+#container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container textarea{
+    background-color: #333;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 80%;
+    height: 90%;
+    padding: 20px 50px;
+    color: white;
+}
